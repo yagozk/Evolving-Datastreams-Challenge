@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [ARF] AdaptiveRandomForestClassifier(binary_split=False, disable_weighted_vote=False, drift_detection_method=ADWIN(delta=0.001), grace_period=50, lambda_value=6, leaf_prediction='nba', max_byte_size=33554432, max_features='auto', memory_estimate_period=2000000, n_estimators=10, nb_threshold=0, no_preprune=False, nominal_attributes=None, performance_metric='acc', random_state=None, remove_poor_atts=False, split_confidence=0.01, split_criterion='info_gain', stop_mem_management=False, tie_threshold=0.05, warning_detection_method=ADWIN(delta=0.01))
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=82250, max_time=inf, metrics=['accuracy'], n_wait=4112, output_file='results_real-world_rialto_ARF.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[ARF],current_acc_[ARF]
+4111,0.776751,0.776751
+8223,0.734679,0.692607
+12335,0.736543,0.740272
+16447,0.751824,0.797665
+20559,0.758463,0.785019
+24671,0.774765,0.856274
+28783,0.776021,0.783560
+32895,0.775930,0.775292
+37007,0.781912,0.829767
+41119,0.785409,0.816877
+45231,0.785064,0.781615
+49343,0.787330,0.812257
+53455,0.792147,0.849951
+57567,0.787382,0.725438
+61679,0.783528,0.729572
+65791,0.781554,0.751946
+69903,0.780828,0.769212
+74015,0.785749,0.869407
+78127,0.787784,0.824416
+82239,0.792230,0.876702
+82249,0.792170,0.875243

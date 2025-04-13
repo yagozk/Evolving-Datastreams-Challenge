@@ -1,0 +1,26 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [SAMKNN] SAMKNNClassifier(ltm_size=0.4, max_window_size=None, min_stm_size=50, n_neighbors=5, stm_size_option='maxACCApprox', use_ltm=True, weighting='distance')
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=100000, max_time=inf, metrics=['accuracy'], n_wait=5000, output_file='results_artificial_HyperplaneDataset_SAMKNN.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[SAMKNN],current_acc_[SAMKNN]
+4999,0.855800,0.855800
+9999,0.863500,0.871200
+14999,0.867467,0.875400
+19999,0.872100,0.886000
+24999,0.873240,0.877800
+29999,0.874167,0.878800
+34999,0.875057,0.880400
+39999,0.877525,0.894800
+44999,0.877267,0.875200
+49999,0.876480,0.869400
+54999,0.876036,0.871600
+59999,0.876267,0.878800
+64999,0.877215,0.888600
+69999,0.876971,0.873800
+74999,0.877267,0.881400
+79999,0.877125,0.875000
+84999,0.877412,0.882000
+89999,0.878211,0.891800
+94999,0.877863,0.871600
+99999,0.878200,0.884600

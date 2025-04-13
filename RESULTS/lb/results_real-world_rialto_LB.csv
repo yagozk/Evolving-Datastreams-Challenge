@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [LB] LeveragingBaggingClassifier(base_estimator=KNNClassifier(leaf_size=30, max_window_size=1000, metric='euclidean', n_neighbors=5), delta=0.002, enable_code_matrix=False, leverage_algorithm='leveraging_bag', n_estimators=10, random_state=None, w=6)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=82250, max_time=inf, metrics=['accuracy'], n_wait=4112, output_file='results_real-world_rialto_LB.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[LB],current_acc_[LB]
+4111,0.836089,0.836089
+8223,0.825389,0.814689
+12335,0.828713,0.835360
+16447,0.837609,0.864300
+20559,0.834922,0.824173
+24671,0.847641,0.911235
+28783,0.845296,0.831226
+32895,0.839494,0.798881
+37007,0.844304,0.882782
+41119,0.847714,0.878405
+45231,0.845463,0.822957
+49343,0.848715,0.884484
+53455,0.851972,0.891051
+57567,0.848440,0.802529
+61679,0.844423,0.788181
+65791,0.843005,0.821741
+69903,0.841783,0.822228
+74015,0.843345,0.869893
+78127,0.843142,0.839494
+82239,0.846340,0.907101
+82249,0.846286,0.906372

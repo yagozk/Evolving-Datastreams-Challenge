@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [AWE] AccuracyWeightedEnsembleClassifier(base_estimator=NaiveBayes(nominal_attributes=None), n_estimators=10, n_kept_estimators=30, n_splits=5, window_size=200)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=6213, max_time=inf, metrics=['accuracy'], n_wait=310, output_file='results_real-world_spam_AWE.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[AWE],current_acc_[AWE]
+309,0.264516,0.264516
+619,0.479032,0.693548
+929,0.550538,0.693548
+1239,0.578226,0.661290
+1549,0.612903,0.751613
+1859,0.630645,0.719355
+2169,0.650691,0.770968
+2479,0.662903,0.748387
+2789,0.687455,0.883871
+3099,0.668710,0.500000
+3409,0.666862,0.648387
+3719,0.665054,0.645161
+4029,0.673945,0.780645
+4339,0.688018,0.870968
+4649,0.688602,0.696774
+4959,0.698790,0.851613
+5269,0.711385,0.912903
+5579,0.720609,0.877419
+5889,0.724448,0.793548
+6199,0.724032,0.716129
+6212,0.723966,0.703226

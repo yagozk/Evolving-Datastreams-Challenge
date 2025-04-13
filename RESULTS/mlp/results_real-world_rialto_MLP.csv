@@ -1,0 +1,26 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=82250, max_time=inf, metrics=['accuracy'], n_wait=4112, output_file='results_real-world_rialto_MLP.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[MLP],current_acc_[MLP]
+4111,0.255837,0.255837
+8223,0.283682,0.311527
+12335,0.301232,0.336333
+16447,0.332563,0.426556
+20559,0.341926,0.379377
+24671,0.354288,0.416099
+28783,0.367878,0.449416
+32895,0.381870,0.479815
+37007,0.397428,0.521887
+41119,0.409946,0.522617
+45231,0.418421,0.503161
+49343,0.428461,0.538911
+53455,0.441092,0.592656
+57567,0.446724,0.519942
+61679,0.452335,0.530885
+65791,0.458582,0.552286
+69903,0.466855,0.599222
+74015,0.477505,0.658560
+78127,0.485537,0.630107
+82239,0.497775,0.730302
+82249,0.497739,0.729329

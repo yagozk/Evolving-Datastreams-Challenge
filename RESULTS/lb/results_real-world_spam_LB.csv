@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [LB] LeveragingBaggingClassifier(base_estimator=KNNClassifier(leaf_size=30, max_window_size=1000, metric='euclidean', n_neighbors=5), delta=0.002, enable_code_matrix=False, leverage_algorithm='leveraging_bag', n_estimators=10, random_state=None, w=6)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=6213, max_time=inf, metrics=['accuracy'], n_wait=310, output_file='results_real-world_spam_LB.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[LB],current_acc_[LB]
+309,0.987097,0.987097
+619,0.990323,0.993548
+929,0.962366,0.906452
+1239,0.945161,0.893548
+1549,0.936774,0.903226
+1859,0.930645,0.900000
+2169,0.926267,0.900000
+2479,0.920565,0.880645
+2789,0.927957,0.987097
+3099,0.935161,1.000000
+3409,0.936657,0.951613
+3719,0.935215,0.919355
+4029,0.936973,0.958065
+4339,0.938249,0.954839
+4649,0.935699,0.900000
+4959,0.936895,0.954839
+5269,0.938710,0.967742
+5579,0.939247,0.948387
+5889,0.940238,0.958065
+6199,0.939032,0.916129
+6212,0.938999,0.912903

@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [DWM] DynamicWeightedMajorityClassifier(base_estimator=NaiveBayes(nominal_attributes=None), beta=0.5, n_estimators=5, period=50, theta=0.01)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=6213, max_time=inf, metrics=['accuracy'], n_wait=310, output_file='results_real-world_spam_DWM.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[DWM],current_acc_[DWM]
+309,0.680645,0.680645
+619,0.822581,0.964516
+929,0.827957,0.838710
+1239,0.792742,0.687097
+1549,0.790968,0.783871
+1859,0.806452,0.883871
+2169,0.822120,0.916129
+2479,0.834677,0.922581
+2789,0.844086,0.919355
+3099,0.851290,0.916129
+3409,0.858358,0.929032
+3719,0.861828,0.900000
+4029,0.863275,0.880645
+4339,0.869124,0.945161
+4649,0.872688,0.922581
+4959,0.877218,0.945161
+5269,0.881784,0.954839
+5579,0.882975,0.903226
+5889,0.884550,0.912903
+6199,0.883226,0.858065
+6212,0.883470,0.864516

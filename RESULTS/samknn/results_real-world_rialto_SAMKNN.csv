@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [SAMKNN] SAMKNNClassifier(ltm_size=0.4, max_window_size=None, min_stm_size=50, n_neighbors=5, stm_size_option='maxACCApprox', use_ltm=True, weighting='distance')
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=82250, max_time=inf, metrics=['accuracy'], n_wait=4112, output_file='results_real-world_rialto_SAMKNN.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[SAMKNN],current_acc_[SAMKNN]
+4111,0.803259,0.803259
+8223,0.792802,0.782344
+12335,0.795315,0.800340
+16447,0.803380,0.827578
+20559,0.799514,0.784047
+24671,0.812622,0.878161
+28783,0.811770,0.806663
+32895,0.807393,0.776751
+37007,0.814310,0.869650
+41119,0.817121,0.842412
+45231,0.814446,0.787695
+49343,0.816614,0.840467
+53455,0.819796,0.857977
+57567,0.817086,0.781858
+61679,0.812516,0.748541
+65791,0.811542,0.796936
+69903,0.809925,0.784047
+74015,0.811244,0.833658
+78127,0.810734,0.801556
+82239,0.813704,0.870136
+82249,0.813629,0.869407

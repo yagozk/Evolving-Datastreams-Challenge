@@ -1,0 +1,26 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=6213, max_time=inf, metrics=['accuracy'], n_wait=310, output_file='results_real-world_spam_MLP.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[MLP],current_acc_[MLP]
+309,0.977419,0.977419
+619,0.982258,0.987097
+929,0.927957,0.819355
+1239,0.926613,0.922581
+1549,0.936129,0.974194
+1859,0.937634,0.945161
+2169,0.941014,0.961290
+2479,0.943145,0.958065
+2789,0.947312,0.980645
+3099,0.952258,0.996774
+3409,0.953079,0.961290
+3719,0.953226,0.954839
+4029,0.956079,0.990323
+4339,0.958065,0.983871
+4649,0.960215,0.990323
+4959,0.959274,0.945161
+5269,0.960152,0.974194
+5579,0.960036,0.958065
+5889,0.961460,0.987097
+6199,0.961290,0.958065
+6212,0.961371,0.958065

@@ -1,0 +1,25 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=100000, max_time=inf, metrics=['accuracy'], n_wait=5000, output_file='results_artificial_HyperplaneDataset_MLP.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[MLP],current_acc_[MLP]
+4999,0.842800,0.842800
+9999,0.876300,0.909800
+14999,0.892067,0.923600
+19999,0.900500,0.925800
+24999,0.906400,0.930000
+29999,0.909300,0.923800
+34999,0.912086,0.928800
+39999,0.915150,0.936600
+44999,0.916644,0.928600
+49999,0.918320,0.933400
+54999,0.919418,0.930400
+59999,0.920400,0.931200
+64999,0.921169,0.930400
+69999,0.921871,0.931000
+74999,0.922893,0.937200
+79999,0.923750,0.936600
+84999,0.924388,0.934600
+89999,0.925289,0.940600
+94999,0.926042,0.939600
+99999,0.926410,0.933400

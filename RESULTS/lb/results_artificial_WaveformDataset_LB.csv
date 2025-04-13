@@ -1,0 +1,26 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [LB] LeveragingBaggingClassifier(base_estimator=KNNClassifier(leaf_size=30, max_window_size=1000, metric='euclidean', n_neighbors=5), delta=0.002, enable_code_matrix=False, leverage_algorithm='leveraging_bag', n_estimators=10, random_state=None, w=6)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=100000, max_time=inf, metrics=['accuracy'], n_wait=5000, output_file='results_artificial_WaveformDataset_LB.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[LB],current_acc_[LB]
+4999,0.743400,0.743400
+9999,0.741900,0.740400
+14999,0.749200,0.763800
+19999,0.750250,0.753400
+24999,0.751080,0.754400
+29999,0.752000,0.756600
+34999,0.751200,0.746400
+39999,0.752075,0.758200
+44999,0.752044,0.751800
+49999,0.752940,0.761000
+54999,0.753382,0.757800
+59999,0.753783,0.758200
+64999,0.753538,0.750600
+69999,0.752986,0.745800
+74999,0.752400,0.744200
+79999,0.752975,0.761600
+84999,0.753259,0.757800
+89999,0.753156,0.751400
+94999,0.753832,0.766000
+99999,0.752820,0.733600

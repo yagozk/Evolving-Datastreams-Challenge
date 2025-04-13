@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [AWE] AccuracyWeightedEnsembleClassifier(base_estimator=NaiveBayes(nominal_attributes=None), n_estimators=10, n_kept_estimators=30, n_splits=5, window_size=200)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=82250, max_time=inf, metrics=['accuracy'], n_wait=4112, output_file='results_real-world_rialto_AWE.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[AWE],current_acc_[AWE]
+4111,0.361381,0.361381
+8223,0.360652,0.359922
+12335,0.357004,0.349708
+16447,0.381627,0.455496
+20559,0.370477,0.325875
+24671,0.381201,0.434825
+28783,0.391815,0.455496
+32895,0.385792,0.343628
+37007,0.386160,0.389105
+41119,0.392218,0.446741
+45231,0.397705,0.452578
+49343,0.403838,0.471304
+53455,0.411161,0.499027
+57567,0.406910,0.351654
+61679,0.404864,0.376216
+65791,0.403727,0.386673
+69903,0.405556,0.434825
+74015,0.409506,0.476654
+78127,0.409904,0.417072
+82239,0.411576,0.443337
+82249,0.411550,0.442121

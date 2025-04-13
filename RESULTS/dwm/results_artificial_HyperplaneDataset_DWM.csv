@@ -1,0 +1,26 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [DWM] DynamicWeightedMajorityClassifier(base_estimator=NaiveBayes(nominal_attributes=None), beta=0.5, n_estimators=5, period=50, theta=0.01)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=100000, max_time=inf, metrics=['accuracy'], n_wait=5000, output_file='results_artificial_HyperplaneDataset_DWM.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[DWM],current_acc_[DWM]
+4999,0.922200,0.922200
+9999,0.928700,0.935200
+14999,0.927333,0.924600
+19999,0.928350,0.931400
+24999,0.929720,0.935200
+29999,0.928200,0.920600
+34999,0.929343,0.936200
+39999,0.930325,0.937200
+44999,0.930267,0.929800
+49999,0.930860,0.936200
+54999,0.931564,0.938600
+59999,0.930783,0.922200
+64999,0.930462,0.926600
+69999,0.930043,0.924600
+74999,0.930547,0.937600
+79999,0.929512,0.914000
+84999,0.929024,0.921200
+89999,0.929178,0.931800
+94999,0.930095,0.946600
+99999,0.930560,0.939400

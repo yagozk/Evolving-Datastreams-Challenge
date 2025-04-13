@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [SAMKNN] SAMKNNClassifier(ltm_size=0.4, max_window_size=None, min_stm_size=50, n_neighbors=5, stm_size_option='maxACCApprox', use_ltm=True, weighting='distance')
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=6213, max_time=inf, metrics=['accuracy'], n_wait=310, output_file='results_real-world_spam_SAMKNN.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[SAMKNN],current_acc_[SAMKNN]
+309,0.987097,0.987097
+619,0.990323,0.993548
+929,0.970968,0.932258
+1239,0.954839,0.906452
+1549,0.949677,0.929032
+1859,0.946774,0.932258
+2169,0.946083,0.941935
+2479,0.944758,0.935484
+2789,0.949462,0.987097
+3099,0.954516,1.000000
+3409,0.955132,0.961290
+3719,0.954301,0.945161
+4029,0.957072,0.990323
+4339,0.957604,0.964516
+4649,0.958925,0.977419
+4959,0.959476,0.967742
+5269,0.960531,0.977419
+5579,0.960932,0.967742
+5889,0.962139,0.983871
+6199,0.961774,0.954839
+6212,0.961854,0.954839

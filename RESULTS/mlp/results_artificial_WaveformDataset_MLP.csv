@@ -1,0 +1,25 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=100000, max_time=inf, metrics=['accuracy'], n_wait=5000, output_file='results_artificial_WaveformDataset_MLP.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[MLP],current_acc_[MLP]
+4999,0.802200,0.802200
+9999,0.821400,0.840600
+14999,0.828400,0.842400
+19999,0.831850,0.842200
+24999,0.833200,0.838600
+29999,0.835867,0.849200
+34999,0.837771,0.849200
+39999,0.838850,0.846400
+44999,0.840422,0.853000
+49999,0.841500,0.851200
+54999,0.842382,0.851200
+59999,0.842750,0.846800
+64999,0.843585,0.853600
+69999,0.843443,0.841600
+74999,0.843560,0.845200
+79999,0.843812,0.847600
+84999,0.844576,0.856800
+89999,0.844767,0.848000
+94999,0.845179,0.852600
+99999,0.844950,0.840600

@@ -1,0 +1,26 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [AWE] AccuracyWeightedEnsembleClassifier(base_estimator=NaiveBayes(nominal_attributes=None), n_estimators=10, n_kept_estimators=30, n_splits=5, window_size=200)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=100000, max_time=inf, metrics=['accuracy'], n_wait=5000, output_file='results_artificial_HyperplaneDataset_AWE.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[AWE],current_acc_[AWE]
+4999,0.884000,0.884000
+9999,0.898100,0.912200
+14999,0.904600,0.917600
+19999,0.908800,0.921400
+24999,0.911240,0.921000
+29999,0.913133,0.922600
+34999,0.914571,0.923200
+39999,0.915750,0.924000
+44999,0.915889,0.917000
+49999,0.916860,0.925600
+54999,0.917509,0.924000
+59999,0.917967,0.923000
+64999,0.917985,0.918200
+69999,0.918371,0.923400
+74999,0.919013,0.928000
+79999,0.919013,0.919000
+84999,0.919106,0.920600
+89999,0.919400,0.924400
+94999,0.919779,0.926600
+99999,0.919890,0.922000

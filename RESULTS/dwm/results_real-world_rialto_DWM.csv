@@ -1,0 +1,27 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [DWM] DynamicWeightedMajorityClassifier(base_estimator=NaiveBayes(nominal_attributes=None), beta=0.5, n_estimators=5, period=50, theta=0.01)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=82250, max_time=inf, metrics=['accuracy'], n_wait=4112, output_file='results_real-world_rialto_DWM.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[DWM],current_acc_[DWM]
+4111,0.368677,0.368677
+8223,0.346182,0.323687
+12335,0.320039,0.267753
+16447,0.326605,0.346304
+20559,0.317704,0.282101
+24671,0.318012,0.319553
+28783,0.317538,0.314689
+32895,0.321832,0.351897
+37007,0.322390,0.326848
+41119,0.329815,0.396644
+45231,0.329015,0.321012
+49343,0.327639,0.312500
+53455,0.327279,0.322957
+57567,0.325528,0.302772
+61679,0.322049,0.273346
+65791,0.322988,0.337062
+69903,0.323758,0.336089
+74015,0.323214,0.313959
+78127,0.326234,0.380593
+82239,0.329511,0.391780
+82249,0.329495,0.392023

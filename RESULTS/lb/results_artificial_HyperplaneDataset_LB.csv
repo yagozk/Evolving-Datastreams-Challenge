@@ -1,0 +1,26 @@
+# TEST CONFIGURATION BEGIN
+# DataStream(n_targets=-1, target_idx=1, cat_features=None, name=None)
+# [LB] LeveragingBaggingClassifier(base_estimator=KNNClassifier(leaf_size=30, max_window_size=1000, metric='euclidean', n_neighbors=5), delta=0.002, enable_code_matrix=False, leverage_algorithm='leveraging_bag', n_estimators=10, random_state=None, w=6)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=100000, max_time=inf, metrics=['accuracy'], n_wait=5000, output_file='results_artificial_HyperplaneDataset_LB.csv', pretrain_size=0, restart_stream=True, show_plot=False)
+# TEST CONFIGURATION END
+id,mean_acc_[LB],current_acc_[LB]
+4999,0.727000,0.727000
+9999,0.724300,0.721600
+14999,0.725733,0.728600
+19999,0.728200,0.735600
+24999,0.728400,0.729200
+29999,0.728333,0.728000
+34999,0.728000,0.726000
+39999,0.728850,0.734800
+44999,0.728400,0.724800
+49999,0.728240,0.726800
+54999,0.727982,0.725400
+59999,0.727283,0.719600
+64999,0.727154,0.725600
+69999,0.726771,0.721800
+74999,0.727573,0.738800
+79999,0.727550,0.727200
+84999,0.728059,0.736200
+89999,0.728011,0.727200
+94999,0.728274,0.733000
+99999,0.727660,0.716000

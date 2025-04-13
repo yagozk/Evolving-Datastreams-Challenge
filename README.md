@@ -11,3 +11,4 @@ pip install scikit-multiflow
 Google Colab uses a much newer Python version so I unfortunately could not get it to work on Colab. Use a local Python 3.8 installation.
 
 If you only want to check the results without running the .ipynb notebook, you can do so from the RESULTS directory.
+Also read the companion report pdf
